@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2021/03/22/01/58/monk-6113501_960_720.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+.navbar {
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navbar ul {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    padding-left: 5px;
+}
+
+.head-section {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.container1 {
+    /* width: 50%; */
+    padding: 20px;
+    border: 5px solid white;
+    height: 300px;
+    margin: 10px;
+    align-items: center;
+}
+
+.container1 img {
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid white;
+    padding: 10px;
+}
+
+.container2 {
+    margin: 10px;
+    border: 5px solid white;
+    padding: 20px;
+    /* width: 50%; */
+    text-align: justify;
+    height: 300px;
+}
+
+.container2 h1 {
+    color: white;
+    font-family: Aboreto;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 2rem;
+    border: 3px solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container2 p {
+    font-size: 1.5rem;
+    color: white;
+    word-spacing: 2px;
+    padding: 10px;
+    margin: 10px;
+}
+
+a {
+    /* display: inline-block; */
+    color: white;
+    text-decoration: none;
+    font-family: Aboreto;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+a:hover {
+    color: #eae3d2;
+    background-color: #256d85;
+    border-radius: 50px;
+}
