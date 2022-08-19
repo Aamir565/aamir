@@ -91,13 +91,21 @@ a:hover {
     
 }
 
+
 @media screen and (max-width:960px) {
     .navbar ul li{
         display: block;
         padding: 10px;
-        text-align: center;
+    }
+    .navbar{
+        margin: auto;
+        width: max-content;
+    }
+    .container1{
+        margin: 10px auto;
     }
     .container2{
+        margin: 10px auto;
         height: auto;
     }
     .container1 img{
