@@ -11,7 +11,7 @@ body {
 }
 
 .navbar {
-    height: 60px;
+    
     padding: 10px;
     margin: 10px;
 }
@@ -30,21 +30,17 @@ body {
     width: 70%;
     margin: 0 auto;
     text-align: center;
-    display: flex;
+    /* display: flex; */
     align-items: center;
 }
 
 .container1 {
-    /* width: 50%; */
+    margin: 10px;
     padding: 20px;
     border: 5px solid white;
-    height: 300px;
-    margin: 10px;
-    align-items: center;
 }
 
 .container1 img {
-    width: 250px;
     border-radius: 50%;
     border: 5px solid white;
     padding: 10px;
@@ -52,14 +48,12 @@ body {
 
 .container2 {
     margin: 10px;
-    border: 5px solid white;
     padding: 20px;
-    /* width: 50%; */
-    text-align: justify;
-    height: 300px;
+    border: 5px solid white;
 }
 
 .container2 h1 {
+    text-align: center;
     color: white;
     font-family: Aboreto;
     font-weight: bold;
@@ -71,6 +65,7 @@ body {
 }
 
 .container2 p {
+    text-align: justify;
     font-size: 1.5rem;
     color: white;
     word-spacing: 2px;
@@ -79,7 +74,6 @@ body {
 }
 
 a {
-    /* display: inline-block; */
     color: white;
     text-decoration: none;
     font-family: Aboreto;
@@ -92,4 +86,28 @@ a:hover {
     color: #eae3d2;
     background-color: #256d85;
     border-radius: 50px;
+}
+
+@media screen and (max-width:960px) {
+    .navbar ul li{
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+    .container2{
+        height: auto;
+    }
+    .container1 img{
+        width: 200px;
+    }
+    .container2 p, h1{
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width:1120px) {
+    body{
+        background-position: center;
+    }
 }
