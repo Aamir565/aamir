@@ -1,25 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="navbar">
-        <ul>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact Details</a>
-          </li>
-          <li>
-            <a href="about.html">About Myself</a>
-          </li>
-        </ul>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <h1 class="brand-name" onclick="parent.location='index.html'">RAYMIR</h1>
+      <ul>
+        <li>
+          <a href="about.html">About Myself</a>
+        </li>
+      </ul>
+    </header>
+    <main class="mainContainer">
+      <section class="intro">
+        <img class="profile_img" src="aamir.jpg" alt="profile-img" />
+        <div>
+          <h1>Hi,I am Aamir Rayeen</h1>
+          <br />
+          <p>I'm a Front-end Developer based in Kailaras, India.</p>
+          <br />
+          <p>
+            This Website is a personal project that serves as a portfolio. Built
+            using HTML, CSS, JavaScript, NodeJS, ExpressJS and Other technologies.
+          </p>
+          <br />
+          <p>
+            Feel Free to contact me using the contact Details below.
+          </p>
+        </div>
+      </section>
+      <div class="intro">
+        <h1>Contact Details</h1>
+        
+        <div class="contact-items">
+          <a href="https://www.linkedin.com/in/aamir-rayeen-397aa9171/" class="contact-item" target="_blank">
+             <i class="fa-brands fa-linkedin"></i> Linkedin.com/Aamir Rayeen
+          </a>
+          <a href="https://www.instagram.com/_aamir565/" class="contact-item" target="_blank">
+            <i class="fa-brands fa-instagram"></i> Instagram.com/Aamir Rayeen
+          </a>
+          <a href="mailto:aamir.rayeen.565@gmail.com" class="contact-item" target="_blank">
+            <i class="fa-solid fa-envelope"></i> aamir.rayeen.565@gmail.com
+          </a>
+          <a href="https://wa.me/+919755405967" class="contact-item" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i> +919755405967
+          </a>
+        </div>
       </div>
-</body>
+    </main>
+    <footer>
+      ©️ Aamir Rayeen @raymir.in
+    </footer>
+  </body>
 </html>
